@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FEFDED;
+}
+
+header,
+footer {
+    background-color: #A1C398;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header {
+    background-color: #FA7070;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+
+}
+
+.container {
+    display: flex;
+    align-content: space-between;
+    justify-items: center;
+    gap: 20px;
+    /* Spacing between items */
+}
+
+.section {
+    padding: 20px;
+    background-color: #C6EBC5;
+    /* Background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    text-align: center;
+    /* Center-align content */
+
+    width: 350px;
+    /* Include padding and border in the width calculation */
+}
+
+.intro-para {
+    font-style: italic;
+    /* Make the text italic */
+    color: #555;
+    /* Darker gray color for the text */
+    line-height: 1.5;
+
+    text-align: justify;
+    /* Increase line height for better readability */
+}
+
+a {
+    color: #FA7070;
+    text-decoration: none;
+}
+
+#aa {
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        justify-items: center;
+        /* Change to one column on smaller screens */
+    }
+
+    .section {
+
+        align-self: center;
+    }
+}
+
+h1,
+h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}

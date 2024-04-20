@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #A1C398;
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #C6EBC5;
+    border-radius: 8px;
+    color: black;
+    padding-top: 2px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #FA7070;
+    color: #fff;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.highlight {
+    background-color: #C6EBC5;
+    padding: 3px 6px;
+    border-radius: 10px;
+
+}
+
+.welcome-message {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.welcome-message h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 18px;
+    color: #666;
+}
+
+#aa {
+    text-decoration: none;
+}
+
+a {
+    color: #FEFDED;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #FEFDED;
+}
+
+h1,
+h2 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Zilla Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media (max-width: 800px) {
+    footer {
+        position: relative;
+    }
+}
